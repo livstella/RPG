@@ -1,16 +1,17 @@
 package com.company;
 
-public class Mage extends Character  {
+public class Ranger extends Character {
 
-    Mage(String name){
-        super(1,1,8);
+    Ranger(String name){
+        super(1,7,1);
         this.name=name;
 
     }
 
     public void levelUp() {
-        super.levelUp(1, 1, 5);
+        super.levelUp(1, 5, 1);
     }
+
     public void dealDamage() {
         System.out.println("DAMAGE");
     }
