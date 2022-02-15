@@ -8,8 +8,8 @@ public class Axe extends Weapon {
         //Giving values to properties from abstract class Item
         this.name=name;
         this.equipLevel=2;
-        this.equipSlot=slotTypes.Weapon.name();
-        this.type=WeaponTypes.Axe.name();
+        this.equipSlot=slotTypes.Weapon;
+        this.type=WeaponTypes.Axe;
         this.allowedCharacter="Warrior";
 
         //Feeding type of character and level to the equip method from Item
