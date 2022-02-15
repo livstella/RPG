@@ -17,7 +17,7 @@ public abstract class Character extends PrimaryAttribute {
 
     }
 
-    public abstract void dealDamage();
+    public abstract void dealDamage(/*Must be updated with actual damage*/);
 
     public void levelUp(Integer strengthGain, Integer dexterityGain, Integer intelligenceGain)
     {
