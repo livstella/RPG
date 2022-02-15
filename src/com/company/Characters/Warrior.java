@@ -1,8 +1,8 @@
-package com.company;
+package com.company.Characters;
 
 public class Warrior extends Character{
 
-    Warrior(String name){
+    public Warrior(String name){
         super(5,2,1);
         this.name=name;
 

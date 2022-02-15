@@ -1,17 +1,19 @@
 package com.company;
 
+import com.company.Characters.Mage;
+import com.company.Characters.Ranger;
+import com.company.Items.Axe;
+import com.company.Items.WeaponTypes;
+
 public class Main {
      public static void main(String[] args) {
- Mage a=new Mage("name");
- System.out.println(a.totalStrength);
 
-
-a.levelUp(1,1,5);
-         System.out.println(a.totalIntelligence);
 Ranger b =new Ranger("Öncel");
 
-System.out.println(b.level);
 
+ Axe c = new Axe("test","Warrior", 2);
+
+ System.out.println(c.equipLevel);
 
     }
 }

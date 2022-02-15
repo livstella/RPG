@@ -1,9 +1,9 @@
-package com.company;
+package com.company.Characters;
 
 public class Rogue extends Character{
 
 
-    Rogue(String name){
+    public Rogue(String name){
         super(2,6,1);
         this.name=name;
 

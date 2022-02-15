@@ -1,9 +1,9 @@
-package com.company;
+package com.company.Characters;
 
 public abstract class Character extends PrimaryAttribute {
 
-    String name;
-    Integer level = 1;
+    public String name;
+    public Integer level = 1;
 
     Character(Integer strength, Integer dexterity, Integer intelligence){
         this.baseStrength=strength;

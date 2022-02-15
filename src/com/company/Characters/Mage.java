@@ -1,8 +1,8 @@
-package com.company;
+package com.company.Characters;
 
 public class Mage extends Character  {
 
-    Mage(String name){
+   public Mage(String name){
         super(1,1,8);
         this.name=name;
 

@@ -1,8 +1,8 @@
-package com.company;
+package com.company.Characters;
 
 public class Ranger extends Character {
 
-    Ranger(String name){
+    public Ranger(String name){
         super(1,7,1);
         this.name=name;
 

@@ -1,2 +1,5 @@
-package com.company.Items;public enum slotTypes {
+package com.company.Items;
+
+public enum slotTypes {
+    Head, Body, Legs, Weapon
 }

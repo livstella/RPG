@@ -1,15 +1,15 @@
-package com.company;
+package com.company.Characters;
 
 public abstract class PrimaryAttribute {
 
-       Integer baseStrength;
-        Integer baseDexterity;
-        Integer baseIntelligence;
-        Integer damage;
+       public Integer baseStrength;
+       public Integer baseDexterity;
+       public Integer baseIntelligence;
+       //public Integer damage;
 
-        Integer totalStrength;
-        Integer totalDexterity;
-        Integer totalIntelligence;
+       public Integer totalStrength;
+       public Integer totalDexterity;
+       public Integer totalIntelligence;
 
 
 
