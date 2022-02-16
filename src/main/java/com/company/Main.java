@@ -19,7 +19,7 @@ Warrior Trunte=new Warrior("Trunte");
 
  Axe c = new Axe();
          //System.out.println(c.DPS);
-     Cloth test= new Cloth(slotTypes.Head);
+
 
 
 

@@ -4,9 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-//Arrange
-//Act
-//Assert
+
 
 class MageTest {
 
