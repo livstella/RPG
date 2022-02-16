@@ -18,13 +18,15 @@ Warrior Trunte=new Warrior("Trunte");
 
 
  Axe c = new Axe();
-         System.out.println(c.DPS);
+         //System.out.println(c.DPS);
      Cloth test= new Cloth(slotTypes.Head);
 
 
-         b.equip(c);
+
          Trunte.equip(c);
-      //   System.out.println(Trunte.equipmentSlots.get("Weapon"));
+
+         Trunte.displayStats();
+
 
     }
 }
