@@ -11,9 +11,12 @@ public class Main {
 Ranger b =new Ranger("Öncel");
 
 
- Axe c = new Axe("test","Warrior", 2);
 
- System.out.println(c.equipLevel);
+
+ Axe c = new Axe("test");
+
+
+         b.equip(c);
 
     }
 }

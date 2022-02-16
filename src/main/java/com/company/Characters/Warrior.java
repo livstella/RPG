@@ -3,7 +3,7 @@ package com.company.Characters;
 public class Warrior extends Character{
 
     public Warrior(String name){
-        super(5,2,1);
+        super(5,2,1, "Warrior");
         this.name=name;
 
 

@@ -4,7 +4,7 @@ public class Axe extends Weapon {
     //Creates the axe, requires the name given to the axe, and the type & level of character trying to equip.
 
             //****parameters should be moved to super class*******//
-    public Axe(String name, String equippingCharacter, Integer level){
+    public Axe(String name){
         //Giving values to properties from abstract class Item
         this.name=name;
         this.equipLevel=2;
@@ -12,8 +12,6 @@ public class Axe extends Weapon {
         this.type=WeaponTypes.Axe;
         this.allowedCharacter="Warrior";
 
-        //Feeding type of character and level to the equip method from Item
-        equip(equippingCharacter, level);
 
 
         //Giving values to properties from abstract class Weapon
