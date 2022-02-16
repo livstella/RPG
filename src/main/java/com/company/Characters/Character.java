@@ -9,7 +9,7 @@ public abstract class Character extends PrimaryAttribute {
     public String name;
     public Integer level = 1;
     public String characterType;
-    HashMap equipmentSlots= new HashMap();
+    public HashMap equippedItems = new HashMap<String,Enum>();
 
     Character(Integer strength, Integer dexterity, Integer intelligence, String characterType){
         this.characterType = characterType;
@@ -42,10 +42,12 @@ public abstract class Character extends PrimaryAttribute {
     //Method for equipping items
     public void equip(Item item){
         if (item.equipLevel<=level && item.allowedCharacter.equals(this.characterType)  ){
-            System.out.println(item.type + " has been equipped");
-            equipmentSlots.put(item.equipSlot,item.type);
+           //Puts the equipped item in the equipped items Hashmaps. Uses the string value of the Enum equipslot as a key.
+            equippedItems.put(String.valueOf(item.equipSlot),item.type);
+            System.out.println(item.type + " has been equipped in the slot " + String.valueOf(item.equipSlot) );
+
         }else {
-            System.out.println("you cannot equip");
+            System.out.println("you cannot equip this item");
 
         }
 

@@ -1,8 +1,10 @@
 package com.company.Items;
 
 public class Cloth extends Armor{
-    public Cloth(){
-        super(2,slotTypes.Body, ArmorTypes.Cloth,"Mage" );
+
+    //For armor, it is required to choose which slot to equip in with the chooseSlot parameter
+    public Cloth(Enum chooseSlot){
+        super(2,chooseSlot, ArmorTypes.Cloth,"Mage" );
 
     }
 
